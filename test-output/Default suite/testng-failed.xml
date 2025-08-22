@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="testcases.RestAssured_TestCases">
+        <methods>
+          <include name="GetAdminUsers"/>
+          <include name="PutPaygrades"/>
+          <include name="GetEmpSubunit"/>
+          <include name="GetEmpLeaveInfo"/>
+          <include name="GetDashboardShortcut"/>
+          <include name="GetEmpActionSummary"/>
+          <include name="loginWithSeleniumAndGetCookie"/>
+          <include name="GetPaygrades"/>
+          <include name="DeleteEmploymentStatusByIdTest"/>
+          <include name="GetJobTitlesTest"/>
+          <include name="PostJobCategoriesTest"/>
+          <include name="GetLogin"/>
+          <include name="DeleteJobTitleByIdTest"/>
+          <include name="PostEmpStatuses"/>
+          <include name="GetEmployeeLocations"/>
+          <include name="PutEmploymentStatusTest"/>
+        </methods>
+      </class> <!-- testcases.RestAssured_TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

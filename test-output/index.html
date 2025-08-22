@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\LENOVO\Downloads\RestAssured_UseCase1_PL2\RestAssured_UseCase1_PL2\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">16 methods,   16 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="DeleteEmploymentStatusByIdTest">DeleteEmploymentStatusByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="DeleteJobTitleByIdTest">DeleteJobTitleByIdTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetAdminUsers">GetAdminUsers</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetDashboardShortcut">GetDashboardShortcut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetEmpActionSummary">GetEmpActionSummary</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetEmpLeaveInfo">GetEmpLeaveInfo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetEmpSubunit">GetEmpSubunit</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetEmployeeLocations">GetEmployeeLocations</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetJobTitlesTest">GetJobTitlesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetLogin">GetLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="GetPaygrades">GetPaygrades</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PostEmpStatuses">PostEmpStatuses</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PostJobCategoriesTest">PostJobCategoriesTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PutEmploymentStatusTest">PutEmploymentStatusTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="PutPaygrades">PutPaygrades</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.RestAssured_TestCases" class="method navigator-link" hash-for-method="loginWithSeleniumAndGetCookie">loginWithSeleniumAndGetCookie</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.RestAssured_TestCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteEmploymentStatusByIdTest">
+                  </a> <!-- DeleteEmploymentStatusByIdTest -->
+                  <span class="method-name">DeleteEmploymentStatusByIdTest</span>
+                  <em>
+(1. Fetch employment status ID using GET '/web/index.php/api/v2/admin/employment-statuses'
+2. Delete that employment status using DELETE '/web/index.php/api/v2/admin/employment-statuses'
+3. Assert response code is 200 and verify that the first employment status ID has changed)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteJobTitleByIdTest">
+                  </a> <!-- DeleteJobTitleByIdTest -->
+                  <span class="method-name">DeleteJobTitleByIdTest</span>
+                  <em>
+(1. Fetch job title ID using GET '/web/index.php/api/v2/admin/job-titles' also add a new job title before deleting
+2. Delete that job title using DELETE '/web/index.php/api/v2/admin/job-titles'
+3. Assert response code is 200 and first job title is different after deletion)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetAdminUsers">
+                  </a> <!-- GetAdminUsers -->
+                  <span class="method-name">GetAdminUsers</span>
+                  <em>
+(1. Construct the endpoint '/web/index.php/api/v2/admin/users?limit=50&offset=0&sortField=u.userName&sortOrder=ASC'
+2. Send a GET request with a valid cookie
+3. Print the response status code and body for verification
+4. Assert response code is 200 and required fields are present
+5. Validate user list content and structure)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetDashboardShortcut">
+                  </a> <!-- GetDashboardShortcut -->
+                  <span class="method-name">GetDashboardShortcut</span>
+                  <em>
+(1. Send a GET request to the '/web/index.php/api/v2/dashboard/shortcuts' endpoint with a valid cookie
+2. Do not provide any request body (null)
+3. Print the response status code and body for verification
+4. Assert that the response status code is 200 (OK))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetEmpActionSummary">
+                  </a> <!-- GetEmpActionSummary -->
+                  <span class="method-name">GetEmpActionSummary</span>
+                  <em>
+(1. Send a GET request to the '/web/index.php/api/v2/dashboard/employees/action-summary' endpoint with a valid cookie
+2. Do not include any request body (null)
+3. Print the response status code and response body
+4. Assert that the response status code is 200 (OK))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetEmpLeaveInfo">
+                  </a> <!-- GetEmpLeaveInfo -->
+                  <span class="method-name">GetEmpLeaveInfo</span>
+                  <em>
+(1. Generate the current date dynamically in 'yyyy-MM-dd' format
+2. Send a GET request to the '/web/index.php/api/v2/dashboard/employees/leaves?date={current_date}' endpoint with a valid cookie
+3. Do not include any request body (null)
+4. Log the date used, response status code, and response body
+5. Assert that the response status code is 200 (OK))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetEmpSubunit">
+                  </a> <!-- GetEmpSubunit -->
+                  <span class="method-name">GetEmpSubunit</span>
+                  <em>
+(1. Send a GET request to the '/web/index.php/api/v2/dashboard/employees/subunit' endpoint with a valid cookie
+2. Do not provide any request body (null)
+3. Print the response status code and response body for validation
+4. Assert that the response status code is 200 (OK))                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetEmployeeLocations">
+                  </a> <!-- GetEmployeeLocations -->
+                  <span class="method-name">GetEmployeeLocations</span>
+                  <em>
+(1. Construct the endpoint '/web/index.php/api/v2/dashboard/employees/locations'
+2. Send a GET request with a valid cookie
+3. Print the response status code and body for verification
+4. Assert response code is 200 and all required fields are present)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetJobTitlesTest">
+                  </a> <!-- GetJobTitlesTest -->
+                  <span class="method-name">GetJobTitlesTest</span>
+                  <em>
+(1. Construct the endpoint '/web/index.php/api/v2/admin/job-titles?limit=50&offset=0&sortField=jt.jobTitleName&sortOrder=ASC'
+2. Send a GET request with a valid cookie
+3. Print the response status code and body for verification
+4. Assert response code is 200 and required fields are present and non-empty)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetLogin">
+                  </a> <!-- GetLogin -->
+                  <span class="method-name">GetLogin</span>
+                  <em>
+(1. Send a GET request to the '/web/index.php/auth/login' endpoint with a valid cookie
+2. Do not pass any request body (null)
+3. Print and verify the response status code and response body
+4. Assert that the response status code is 200 (OK) and response is HTML page)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetPaygrades">
+                  </a> <!-- GetPaygrades -->
+                  <span class="method-name">GetPaygrades</span>
+                  <em>
+(Precondition: Null
+1. Send a GET request to the '/web/index.php/api/v2/admin/pay-grades?limit=50&offset=0' endpoint with a valid cookie and the request body
+2. Print the request body, response status code, and response body for debugging
+3. Assert that the response status code is 200, indicating the request was successful)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostEmpStatuses">
+                  </a> <!-- PostEmpStatuses -->
+                  <span class="method-name">PostEmpStatuses</span>
+                  <em>
+(Precondition: Null
+1. Generate a unique name 
+2. Send POST request to '/web/index.php/api/v2/admin/employment-statuse'
+3. Make sure the request contains the req body,cookie4. Verify response contains the added name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PostJobCategoriesTest">
+                  </a> <!-- PostJobCategoriesTest -->
+                  <span class="method-name">PostJobCategoriesTest</span>
+                  <em>
+(1. Generate a unique job category name
+2. Send POST request to '/web/index.php/api/v2/admin/job-categories'
+3. Assert response status is 200
+4. Validate that the response contains the added job category name)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PutEmploymentStatusTest">
+                  </a> <!-- PutEmploymentStatusTest -->
+                  <span class="method-name">PutEmploymentStatusTest</span>
+                  <em>
+(1. Fetch employment status ID using GET '/web/index.php/api/v2/admin/employment-statuses'
+2. Construct endpoint '/web/index.php/api/v2/admin/employment-statuses/{id}'
+3. Send a PUT request with a valid cookie and body containing a new name
+4. Print request/response details
+5. Assert response code is 200 and updated name is reflected in the response)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="PutPaygrades">
+                  </a> <!-- PutPaygrades -->
+                  <span class="method-name">PutPaygrades</span>
+                  <em>
+(Precondition: Get the id of the Paygrade
+1. Get the paygrade id and generate a URL '/web/index.php/api/v2/admin/pay-grades/{id}'
+2. Send a PUT request to the endpoint with a valid cookie and the request body
+3. Print the request body, response status code, and response body for debugging
+4. Assert that the response status code is 200, indicating the request was successful)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithSeleniumAndGetCookie">
+                  </a> <!-- loginWithSeleniumAndGetCookie -->
+                  <span class="method-name">loginWithSeleniumAndGetCookie</span>
+                  <em>
+(1. Login to the application using Selenium WebDriver
+2. Extract the cookie named 'orangehrm' after successful login
+3. Store the cookie value for subsequent API requests)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\LENOVO\Downloads\RestAssured_UseCase1_PL2\RestAssured_UseCase1_PL2\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;PL1&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;groups&gt;
+    &lt;run&gt;
+      &lt;include name=&quot;PL1&quot;/&gt;
+    &lt;/run&gt;
+  &lt;/groups&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;coreUtilities.testlisteners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;coreUtilities.testlisteners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; parallel=&quot;classes&quot; name=&quot;Test&quot;&gt;
+    &lt;parameter name=&quot;environment&quot; value=&quot;dev&quot;/&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testcases.RestAssured_TestCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">PL1</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteEmploymentStatusByIdTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">DeleteJobTitleByIdTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetAdminUsers</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetDashboardShortcut</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetEmpActionSummary</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetEmpLeaveInfo</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetEmpSubunit</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetEmployeeLocations</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetJobTitlesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetLogin</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">GetPaygrades</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PostEmpStatuses</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PostJobCategoriesTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PutEmploymentStatusTest</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">PutPaygrades</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loginWithSeleniumAndGetCookie</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(16);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginWithSeleniumAndGetCookie')
+data.setCell(0, 2, 'testcases.RestAssured_TestCases')
+data.setCell(0, 3, 16171);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'DeleteJobTitleByIdTest')
+data.setCell(1, 2, 'testcases.RestAssured_TestCases')
+data.setCell(1, 3, 1835);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'DeleteEmploymentStatusByIdTest')
+data.setCell(2, 2, 'testcases.RestAssured_TestCases')
+data.setCell(2, 3, 1796);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'GetLogin')
+data.setCell(3, 2, 'testcases.RestAssured_TestCases')
+data.setCell(3, 3, 1765);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'GetEmpActionSummary')
+data.setCell(4, 2, 'testcases.RestAssured_TestCases')
+data.setCell(4, 3, 966);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'PutPaygrades')
+data.setCell(5, 2, 'testcases.RestAssured_TestCases')
+data.setCell(5, 3, 931);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'GetAdminUsers')
+data.setCell(6, 2, 'testcases.RestAssured_TestCases')
+data.setCell(6, 3, 552);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'GetDashboardShortcut')
+data.setCell(7, 2, 'testcases.RestAssured_TestCases')
+data.setCell(7, 3, 534);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'PostEmpStatuses')
+data.setCell(8, 2, 'testcases.RestAssured_TestCases')
+data.setCell(8, 3, 517);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'GetEmpLeaveInfo')
+data.setCell(9, 2, 'testcases.RestAssured_TestCases')
+data.setCell(9, 3, 503);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'GetEmpSubunit')
+data.setCell(10, 2, 'testcases.RestAssured_TestCases')
+data.setCell(10, 3, 493);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'GetJobTitlesTest')
+data.setCell(11, 2, 'testcases.RestAssured_TestCases')
+data.setCell(11, 3, 491);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'GetPaygrades')
+data.setCell(12, 2, 'testcases.RestAssured_TestCases')
+data.setCell(12, 3, 485);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'PostJobCategoriesTest')
+data.setCell(13, 2, 'testcases.RestAssured_TestCases')
+data.setCell(13, 3, 478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'GetEmployeeLocations')
+data.setCell(14, 2, 'testcases.RestAssured_TestCases')
+data.setCell(14, 3, 460);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'PutEmploymentStatusTest')
+data.setCell(15, 2, 'testcases.RestAssured_TestCases')
+data.setCell(15, 3, 448);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcases.RestAssured_TestCases</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginWithSeleniumAndGetCookie</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetLogin</span>
+                <span class="method-start">16798 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetEmpActionSummary</span>
+                <span class="method-start">18789 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetDashboardShortcut</span>
+                <span class="method-start">19996 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetEmpLeaveInfo</span>
+                <span class="method-start">20784 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetEmpSubunit</span>
+                <span class="method-start">21531 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetEmployeeLocations</span>
+                <span class="method-start">22219 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetAdminUsers</span>
+                <span class="method-start">22902 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetJobTitlesTest</span>
+                <span class="method-start">23700 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteJobTitleByIdTest</span>
+                <span class="method-start">24383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">GetPaygrades</span>
+                <span class="method-start">26463 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PutPaygrades</span>
+                <span class="method-start">28238 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PostEmpStatuses</span>
+                <span class="method-start">29401 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PutEmploymentStatusTest</span>
+                <span class="method-start">30094 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">DeleteEmploymentStatusByIdTest</span>
+                <span class="method-start">30773 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">PostJobCategoriesTest</span>
+                <span class="method-start">32742 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
